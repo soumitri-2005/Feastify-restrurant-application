@@ -1,0 +1,77 @@
+@media (max-width: 991px) {
+  h1 {
+    font-size: 2.1875rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  .wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 3.25rem;
+  }
+
+  /* navbar */
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--black-color);
+  }
+
+  .navigation-wrap .navbar-toggler {
+    color: var(--white-color);
+  }
+
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+
+  .top-banner {
+    padding: 12.375rem 0 4.375rem;
+  }
+
+  .tesimonial-section .contents {
+    margin-left: 0rem;
+  }
+
+  .tesimonial-section .carousel-item .carousel-caption p {
+    padding: 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.875rem;
+  }
+
+  .navigation-wrap .navbar-brand img {
+    width: 10rem;
+  }
+
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .tesimonial-section .carousel-item {
+    padding: 11rem 3.125rem;
+  }
+
+  .tesimonial-section .carousel-indicators button {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .footer .footer-link {
+    padding: 0 1rem;
+  }
+
+  .footer a {
+    font-size: 1rem;
+  }
+}
